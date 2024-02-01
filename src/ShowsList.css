@@ -74,8 +74,7 @@
 
 
 .information{
-    display: flex;
-    flex-wrap: wrap;
+    
     margin-top: -20px;
     margin-left: 15px;
     margin-bottom: 10px;
@@ -90,6 +89,8 @@
     margin: 0;
     
 }
+
+
 /* .showInfo{
     border: 0.5px solid lightgoldenrodyellow;
     padding:10px ;
