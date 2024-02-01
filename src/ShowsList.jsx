@@ -38,12 +38,14 @@ const ShowsList = () => {
                                 <h2>{show.name}</h2>
                                 <div className='showInfo'>
                                     <h3>Show Info</h3>
-                                    <p> Rating :{show.rating.average}</p>
-                                    <p>Genre :{show.genres.map((genre, index) => (<span> {genre}</span>))}</p>
-                                    <p> Show Type : {show.type}</p>
-                                    <p> Language : {show.language}</p>
-                                    <p>Satus : {show.status}</p>
-                                    <p>OfficialSite : <Link>{show.officialSite} </Link></p>
+                                    <ul>
+                                    <li> Rating :{show.rating.average}</li>
+                                    <li>Genre :{show.genres.map((genre, index) => (<span> {genre}</span>))}</li>
+                                    <li> Show Type : {show.type}</li>
+                                    <li> Language : {show.language}</li>
+                                    <li>Satus : {show.status}</li>
+                                    <li>OfficialSite : <Link>{show.officialSite} </Link></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
