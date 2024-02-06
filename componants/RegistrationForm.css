@@ -1,0 +1,57 @@
+.maincont{
+    
+    display: flex;
+    height: 90vh;
+    
+    place-items: center;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid ;
+    background-color: rgb(150, 212, 192);
+    flex-direction: column;
+    height: 50vh;
+    width: 400px;
+    border-radius: 35px;
+}
+
+
+form{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    
+    
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.email ,.password{
+    width: 100%;
+    align-items: center;
+    padding-left: 40px;
+    
+    font-size: 1.5rem;
+}
+input{
+    border: none;
+    width: 90%;
+    height: 2rem;
+    border-radius: 5px;
+}
+button{
+    width: 90%;
+    border: none;
+    margin-top: 60px;
+    height: 2rem;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: rgb(107, 107, 219);
+}
